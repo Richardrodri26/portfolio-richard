@@ -1,6 +1,5 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaPhoneAlt, FaUser, FaPaperPlane, FaLinkedin } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
-import { BsMedium } from "react-icons/bs";
 import { SiTailwindcss } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 

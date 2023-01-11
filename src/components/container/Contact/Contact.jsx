@@ -19,7 +19,7 @@ const Contact = () => {
         whileInView={{y: [-50, 0], opacity: 1}} 
         className="title"
       >
-      <a target="_blank" href="https://docdro.id/dHHYPqg">Check my CV</a>
+      <a href="https://docdro.id/dHHYPqg">Check my CV</a>
       </motion.div>
     
 
