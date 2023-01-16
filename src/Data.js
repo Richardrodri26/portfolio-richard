@@ -10,7 +10,7 @@ import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
 
-export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
+export const navLinks = ["Home", "Acerca de mi", "Habilidades", "portafolio"]
 
 export const socialIcons = [
   <AiFillGithub />,
@@ -21,17 +21,11 @@ export const bios = [
   {
     id: 1,
     icon: <FaUser />,
-    key: "Name",
+    key: "Nombre",
     value: "Richard"
   },
   {
     id: 2,
-    icon: <FaPhoneAlt />,
-    key: "Phone",
-    value: "+573003058578"
-  },
-  {
-    id: 3,
     icon: <FaPaperPlane />,
     key: "Email",
     value: "richardmanuel811@gmail.com"
@@ -49,17 +43,17 @@ export const experiences = [
   {
     id: 2,
     position: "Desarrollador Front-end",
-    company: "Capacitate para el empleo / Fundacion Carlos Slim"
+    company: "Capacitate para el empleo / Fundacion Carlos Slim (2020)"
   },
   {
     id: 3,
     position: "Desarrollador Front-end (React)",
-    company: "Capacitate para el empleo / Fundacion Carlos Slim"
+    company: "Capacitate para el empleo / Fundacion Carlos Slim (2023)"
   },
   {
     id: 4,
     position: "Curso de Html y Css",
-    company: "DevCode"
+    company: "DevCode (2020)"
   },
 ]
 export const workImages = [
@@ -68,7 +62,7 @@ export const workImages = [
     img: work1,
     name: "project 1",
     category: "web",
-    github: "https://github.com/Richardrodri26",
+    github: "https://github.com/Richardrodri26/To-do-app",
     deploy: "https://richardrodri26.github.io/To-do-app/"
   },
   {
@@ -76,7 +70,7 @@ export const workImages = [
     img: work2,
     name: "project 2",
     category: "web",
-    github: "https://github.com/Richardrodri26",
+    github: "https://github.com/Richardrodri26/prueba-viajes",
     deploy: "https://richardrodri26.github.io/prueba-viajes/"
   },
   {
@@ -84,7 +78,7 @@ export const workImages = [
     img: work3,
     name: "project 3",
     category: "web",
-    github: "https://github.com/Richardrodri26",
+    github: "https://github.com/Richardrodri26/rick-and-morty",
     deploy: "https://richardrodri26.github.io/rick-and-morty/"
   },
   {
@@ -92,7 +86,7 @@ export const workImages = [
     img: work4,
     name: "project 4",
     category: "web",
-    github: "https://github.com/Richardrodri26",
+    github: "https://github.com/Richardrodri26/Black-project",
     deploy: "https://richardrodri26.github.io/Black-project/"
   },
   {
@@ -100,7 +94,7 @@ export const workImages = [
     img: work5,
     name: "project 5",
     category: "web",
-    github: "https://github.com/Richardrodri26",
+    github: "https://github.com/Richardrodri26/Star-Hub",
     deploy: "https://richardrodri26.github.io/Star-Hub/"
   },
   {
@@ -108,7 +102,7 @@ export const workImages = [
     img: work6,
     name: "project 6",
     category: "web",
-    github: "https://github.com/Richardrodri26",
+    github: "https://github.com/Richardrodri26/Galeria-de-arte",
     deploy: "https://richardrodri26.github.io/Galeria-de-arte/"
   }
 ]

@@ -1,7 +1,6 @@
 import React from 'react'
 import "./App.css"
 import About from './components/container/About/About'
-import Contact from './components/container/Contact/Contact'
 import Footer from './components/container/Footer/Footer'
 import Home from './components/container/Home/Home'
 import Portfolio from './components/container/Portfolio/Portfolio'
@@ -16,7 +15,6 @@ const App = () => {
       <About />
       <Skills />
       <Portfolio />
-      <Contact />
       <Footer />
     </div>
   )

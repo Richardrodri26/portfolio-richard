@@ -33,16 +33,17 @@ const Home = () => {
         <img src={portfolio} alt="portfolio" />
       </div>
       <div className="profile_text">
-        <h3 className='name'>Hi, I'm <span>Richard Rodríguez</span> </h3>
+        <h3 className='name'>Hola, soy <span>Richard Rodríguez</span> </h3>
         <span className='job'>Front-end Developer</span>
-        <span className='text'>Passionate<br /> to build innovative <br />  web products.</span>
+        <span className='text'>Apasionado<br /> de crear productos web <br />  innovadores.</span>
         <motion.a
-          href="#contact"
+          target="_blank"
+          href="https://docdro.id/TDukxg3"
           whileHover={{ scale: 1.1 }}
           variants={moveVariants}
           animate="animation"
         >
-          connect with me</motion.a>
+          Ver mi CV</motion.a>
         <div
           className="web"
 

@@ -35,8 +35,8 @@ const Portfolio = () => {
         className="title"
       
       >
-            <span>My Work</span>
-            <h1>Awesome Projects</h1>
+            <span>Mis trabajos</span>
+            <h1>Proyectos</h1>
       </motion.div>
       <motion.div
         initial={{opacity: 0}}
@@ -72,7 +72,7 @@ const Portfolio = () => {
                 className='hoverLayer'
               >
                   
-                <motion.a target= "_blank" href="https://github.com/Richardrodri26"
+                <motion.a target= "_blank" href={work.github}
                 whileInView={{scale: [0,1]}}
                  whileHover={{scale: [1, 1.1]}}
                  transition={{duration: 0.3}}
@@ -99,15 +99,15 @@ const Portfolio = () => {
         className="talk"
       >
         <div className="talk_left">
-          <h3>so let's talk about <br /> <span>your next projects</span></h3>
+          <h3>¿Quieres incluirme <br /> <span>en tus proyectos?</span></h3>
         </div>
         <motion.div
           whileHover={{ scale: 1.1 }}
           transition={{duration: 0.3}}
           className="talk_right">
-          <a href="#contact"
+          <a href="https://docdro.id/TDukxg3"
           >
-            Contact Me
+            Contactame
           </a>
         </motion.div>
       </motion.div>
